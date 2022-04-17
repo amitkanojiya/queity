@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+@media (max-width: 576px) {
+  .custom-lr-margin {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .s_last_section .playbutton {
+    font-size: 13px;
+  }
+
+  .main-center-container {
+    padding: 70px 50px 65px 50px;
+  }
+}
+
+@media (max-width: 992px) {
+  .copyright p {
+    text-align: center;
+  }
+  .footer_social {
+    justify-content: center;
+  }
+}
